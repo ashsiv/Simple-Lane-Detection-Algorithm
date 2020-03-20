@@ -49,10 +49,10 @@ My pipeline consisted of the following steps:
     * Instead of a single line defining a lane, multiple line segments are drawn using the (x,y) coordinates of all the points on the         left and right lanes respectively. This will add more detail on the bending or curving areas of the roads as shown below.
       
        Single line fit:
-       ![alt text][image10]
+       ![image10](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/straightlanes.JPG)
        
        Multi-line segment fit:
-       ![alt text][image11]     
+       ![image11](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/curvedlanes.JPG)  
       
       This approach needs more investigation (I will update this github project after further analysis using this approach). Alternatively, instead of straight line fits, we can use non linear fitting as well.
 

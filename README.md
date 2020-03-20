@@ -13,28 +13,28 @@
 My pipeline consisted of the following steps:
 
 * First, I have used color masks (yellow and white) on the image to focus on the lanes.
-  ![alt text][image2]
-  ![alt text][image8]
-  ![alt text][image3]
+  ![image2](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/actual.jpg) 
+  ![image8](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/colormask.jpg)
+  ![image3](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/grayscale.jpg)
 * Then I converted the images to grayscale as shown above.
   
 * After applying Gaussian filtering (blur),I subjected the image through Canny algorithm to detect lane edges.
-  ![alt text][image4]
-  ![alt text][image5]
+  ![image4](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/grayscale_blur.jpg)
+  ![image5](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/canny.jpg)
 * Defining a trapezoidal region of interest (focusing both lanes), I applied Hough Transform on edge detected image to detect lines.
     * As part of hough transform, in my draw_lines_method1() function,
         * I obtained the (x,y) coordinated of all the points on the left and right lanes separately. I used the slope of the line to               easily bin the coordintes to appropriate lanes
         * Then using cv2.fitLine function, I obtained the slope and a point on the line fit. Using this information, I extrapolated the           line across the boundaries of the image (knowing image size). I have trimmed the extrapolated lines again using the defined             trapezoidal region of interest to obtain the lanes.
 
-  ![alt text][image9]
-  ![alt text][image6]
-  ![alt text][image7]
+  ![image9](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/roi.jpg)
+  ![image6](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/extrapolation.jpg)
+  ![image7](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/overlayed.jpg)
 * Finally I overlayed the detected lane lines with original image as shown above.
   
 ### 2. Test cases output (videos)
-* [SolidYellowRight](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/test_videos_output/solidWhiteRight.mp4) 
-* [SolidYellowLeft](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/test_videos_output/solidYellowLeft.mp4) 
-* [Challenge](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/test_videos_output/challenge.mp4) 
+* [SolidYellowRight](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/test_videos_output/solidWhiteRight.mp4) 
+* [SolidYellowLeft](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/test_videos_output/solidYellowLeft.mp4) 
+* [Challenge](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/blob/src/test_videos_output/challenge.mp4) 
 
 ### 3. Shortcomings of the pipeline
 

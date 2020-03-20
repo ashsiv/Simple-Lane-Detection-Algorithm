@@ -4,22 +4,7 @@
 
 * Design a pipeline to detect lane lines on the road even under challenging conditions (curves, shades of road colors etc) 
 ---
-
-[//]: # (Image References)
-
-[image1]:( https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/laneLines_thirdPass.jpg)
-[image2]:( https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/actual.jpg) 
-[image3]:( https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/grayscale.jpg)
-[image4]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/grayscale_blur.jpg )
-[image5]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/canny.jpg) 
-[image6]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/extrapolation.jpg )
-[image7]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/overlayed.jpg )
-[image8]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/colormask.jpg )
-[image9]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/roi.jpg )
-[image10]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/straightlanes.JPG)
-[image11]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/curvedlanes.JPG)
-![alt text][image1]
----
+![image1](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/laneLines_thirdPass.jpg)
 
 ### Reflection:
 

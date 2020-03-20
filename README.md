@@ -5,7 +5,7 @@
 * Design a pipeline to detect lane lines on the road even under challenging conditions (curves, shades of road colors etc) 
 ---
 [//]: # (Image References)
-[image1]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/laneLines_thirdPass.jpg)
+[image1]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/laneLines_thirdPass.jpg)
 [image2]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/actual.jpg) 
 [image3]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/grayscale.jpg)
 [image4]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/grayscale_blur.jpg)

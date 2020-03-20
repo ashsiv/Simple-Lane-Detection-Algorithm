@@ -7,17 +7,17 @@
 
 [//]: # (Image References)
 
-[image1]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/laneLines_thirdPass.jpg 
-[image2]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/actual.jpg 
-[image3]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/grayscale.jpg 
-[image4]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/grayscale_blur.jpg 
-[image5]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/canny.jpg 
-[image6]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/extrapolation.jpg 
-[image7]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/overlayed.jpg 
-[image8]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/colormask.jpg 
-[image9]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/roi.jpg 
-[image10]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/straightlanes.JPG
-[image11]: https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/curvedlanes.JPG
+[image1]:( https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/laneLines_thirdPass.jpg)
+[image2]:( https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/actual.jpg) 
+[image3]:( https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/grayscale.jpg)
+[image4]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/grayscale_blur.jpg )
+[image5]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/canny.jpg) 
+[image6]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/extrapolation.jpg )
+[image7]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/overlayed.jpg )
+[image8]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/colormask.jpg )
+[image9]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/roi.jpg )
+[image10]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/straightlanes.JPG)
+[image11]: (https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/curvedlanes.JPG)
 ![alt text][image1]
 ---
 
@@ -47,9 +47,9 @@ My pipeline consisted of the following steps:
 * Finally I overlayed the detected lane lines with original image as shown above.
   
 ### 2. Test cases output (videos)
-* [SolidYellowRight](https://github.com/ashsiv/self_driving_car_lane_detection/blob/master/carnd-laneline-p1/test_videos_output/solidWhiteRight.mp4) 
-* [SolidYellowLeft](https://github.com/ashsiv/self_driving_car_lane_detection/blob/master/carnd-laneline-p1/test_videos_output/solidYellowLeft.mp4) 
-* [Challenge](https://github.com/ashsiv/self_driving_car_lane_detection/blob/master/carnd-laneline-p1/test_videos_output/challenge.mp4) 
+* [SolidYellowRight](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/test_videos_output/solidWhiteRight.mp4) 
+* [SolidYellowLeft](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/test_videos_output/solidYellowLeft.mp4) 
+* [Challenge](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/test_videos_output/challenge.mp4) 
 
 ### 3. Shortcomings of the pipeline
 

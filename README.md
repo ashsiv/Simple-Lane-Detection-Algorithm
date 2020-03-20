@@ -6,7 +6,7 @@
 ---
 [//]: # (Image References)
 [image1]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/laneLines_thirdPass.jpg)
-[image2]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blog/master/src/examples/actual.jpg) 
+[image2]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/master/src/examples/actual.jpg) 
 [image3]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/grayscale.jpg)
 [image4]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/grayscale_blur.jpg)
 [image5]:(https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/examples/canny.jpg) 

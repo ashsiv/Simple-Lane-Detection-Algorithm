@@ -34,7 +34,7 @@ My pipeline consisted of the following steps:
 ### 2. Test cases output (videos)
 * [SolidYellowRight](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/test_videos_output/solidWhiteRight.mp4) 
 * [SolidYellowLeft](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/test_videos_output/solidYellowLeft.mp4) 
-* [Challenge](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/tree/blob/src/test_videos_output/challenge.mp4) 
+* [Challenge](https://github.com/ashsiv/Simple-Lane-Detection-Algorithm/blob/master/src/test_videos_output/challenge.mp4) 
 
 ### 3. Shortcomings of the pipeline
 
